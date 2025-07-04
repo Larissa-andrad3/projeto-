@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    tools:context=".FirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        >
+        <TextView
+            android:id="@+id/textocentral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dificuldades Visuais"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/shapewhite"/>
+
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textocentral"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img1"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_1"
+                android:scaleType="centerCrop"
+                android:background="@drawable/shaped"
+                android:layout_gravity="start"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/RoundedImageView"/>
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/texto2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Erros de refração ocorrem quando a luz não é corretamente focalizada na retina, resultando em visão embaçada. Os principais tipos são miopia, hipermetropia, astigmatismo e presbiopia."
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img2"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_2"
+                android:scaleType="centerCrop"
+                android:background="@drawable/shaped"
+                android:layout_gravity="start"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/RoundedImageView"/>
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/texto4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Baixa visão é a redução significativa da capacidade visual que não pode ser totalmente corrigida com óculos, lentes ou cirurgia. Afeta atividades diárias como leitura, escrita e locomoção."
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear3"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img3"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_3"
+                android:scaleType="centerCrop"
+                android:background="@drawable/shaped"
+                android:layout_gravity="start"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/RoundedImageView"/>
+            <LinearLayout
+                android:id="@+id/lineartext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/texto3linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A catarata é a opacificação do cristalino do olho, causando visão turva e embaçada. É comum em idosos e pode ser tratada com cirurgia."
+                    android:textColor="@color/black"
+                    android:layout_marginStart="10dp"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear4foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear3foto"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img4"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_4"
+                android:scaleType="centerCrop"
+                android:background="@drawable/shaped"
+                android:layout_gravity="start"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/RoundedImageView"/>
+            <LinearLayout
+                android:id="@+id/lineartext4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/texto4linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="O glaucoma é uma doença ocular que danifica o nervo óptico, geralmente devido à pressão elevada no olho. Pode causar perda gradual da visão e até cegueira se não for tratado."
+                    android:layout_marginStart="10dp"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear5foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear4foto"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/img5"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/img_5"
+                android:scaleType="centerCrop"
+                android:background="@drawable/shaped"
+                android:layout_gravity="start"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/RoundedImageView"/>
+            <LinearLayout
+                android:id="@+id/lineartext5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/texto5linear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="A cegueira é a perda total ou quase total da visão, dificultando ou impossibilitando a percepção visual. Pode ser causada por doenças, lesões ou condições congênitas."
+                    android:layout_marginStart="10dp"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:layout_marginTop="-30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear5foto"
+            >
+            <Button
+                android:id="@+id/menuDificuldades"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                app:layout_constraintTop_toBottomOf="@id/linear5foto"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="5dp"
+                android:text="Menu"/>
+
+            <LinearLayout
+                android:id="@+id/linearbutton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/proxDificuldades"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    app:layout_constraintTop_toBottomOf="@id/linear5foto"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:backgroundTint="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Seguinte"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
