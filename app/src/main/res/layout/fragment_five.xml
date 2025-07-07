@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul"
+    tools:context=".FirstFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        >
+        <TextView
+            android:id="@+id/textocentral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lista de Endereços"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/shapewhite"/>
+
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="@drawable/shapewhite"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textocentral"
+            >
+            <TextView
+                android:id="@+id/end1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endereço Eye Center:"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textoend1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Av. Djalma Batista, 1058 - Manaus, AM"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/end2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endereço Julia Herrera Hospital de Olhos:"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textoend2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rua Terezina, 495 - Adrianópolis, Manaus - AM"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/end3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endereço Amazon Oftalmologia:"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textoend3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Av. Mário Ypiranga, 1036 - Adrianópolis, Manaus - AM"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/end4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endereço AC Olhos Oftalmologia:"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/textoend4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rua Fortaleza, 15 - Adrianópolis, Manaus - AM"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearoend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linear1"
+            >
+            <Button
+                android:id="@+id/anteriorE"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="5dp"
+                android:text="Anterior"/>
+
+            <LinearLayout
+                android:id="@+id/linearend2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/menuE"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:backgroundTint="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:text="Menu"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

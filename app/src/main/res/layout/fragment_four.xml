@@ -102,7 +102,7 @@
                     android:id="@+id/texto2c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="O Julia Herrera Hospital de Olhos, com mais de 30 anos de atuação, é referência em oftalmologia de média e alta complexidade no Amazonas e região Norte, acreditado pela ONA com alto padrão de qualidade"
+                    android:text="O Julia Herrera Hospital de Olhos, com mais de 30 anos de atuação, é referência em oftalmologia de média e alta complexidade no Amazonas e região Norte, acreditado pela ONA com alto padrão de qualidade"
                     android:textColor="@color/black"
                     android:layout_marginStart="10dp"
                     android:textSize="10sp"
