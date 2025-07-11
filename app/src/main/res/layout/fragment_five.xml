@@ -129,8 +129,9 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:backgroundTint="@color/black"
-                android:layout_marginTop="5dp"
-                android:text="Anterior"/>
+               android:layout_margin="10dp"
+                android:text="Anterior"
+                android:textColor="@color/white"/>
 
             <LinearLayout
                 android:id="@+id/linearend2"
@@ -145,9 +146,9 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     android:backgroundTint="@color/black"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:text="Menu"/>
+                    android:layout_margin="10dp"
+                    android:text="Menu"
+                    android:textColor="@color/white"/>
             </LinearLayout>
         </LinearLayout>
 

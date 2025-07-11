@@ -17,7 +17,7 @@
 
         <action
             android:id="@+id/action_FirstFragment_to_ThirdFragment"
-            app:destination="@id/thirdFragment" />
+            app:destination="@id/ThirdFragment" />
 
     </fragment>
 
@@ -34,34 +34,37 @@
 
         <action
             android:id="@+id/action_SecondFragment_to_ThirdFragment"
-            app:destination="@id/thirdFragment" />
+            app:destination="@id/ThirdFragment" />
 
     </fragment>
 
     <fragment
-        android:id="@+id/thirdFragment"
-        android:name="com.example.projeto.thirdFragment"
+        android:id="@+id/ThirdFragment"
+        android:name="com.example.projeto.ThirdFragment"
         android:label="Third Fragment"
         tools:layout="@layout/fragment_third">
 
         <action
             android:id="@+id/action_ThirdFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_ThirdFragment_to_FourFragment"
+            app:destination="@id/FourFragment"/>
     </fragment>
 
     <fragment
-        android:id="@+id/fourFragment"
-        android:name="com.example.projeto.SecondFragment"
+        android:id="@+id/FourFragment"
+        android:name="com.example.projeto.FourFragment"
         android:label="Four Fragment"
         tools:layout="@layout/fragment_four">
 
         <action
             android:id="@+id/action_FourFragment_to_ThirdFragment"
-            app:destination="@id/thirdFragment" />
+            app:destination="@id/ThirdFragment" />
 
         <action
             android:id="@+id/action_FourFragment_to_FiveFragment"
-            app:destination="@id/thirdFragment" />
+            app:destination="@id/FiveFragment" />
 
     </fragment>
     <fragment
@@ -72,7 +75,7 @@
 
         <action
         android:id="@+id/action_FiveFragment_to_FourFragment"
-        app:destination="@id/fourFragment"/>
+        app:destination="@id/FourFragment"/>
 
         <action
         android:id="@+id/action_FiveFragment_to_FirstFragment"

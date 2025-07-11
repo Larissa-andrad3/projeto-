@@ -11,7 +11,7 @@ import com.example.projeto.databinding.FragmentThirdBinding
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class thirdFragment : Fragment() {
+class ThirdFragment : Fragment() {
 
     private var _binding: FragmentThirdBinding? = null
 
@@ -34,6 +34,9 @@ class thirdFragment : Fragment() {
 
         binding.menuDificuldades.setOnClickListener {
             findNavController().navigate(R.id.action_ThirdFragment_to_FirstFragment)
+        }
+        binding.proxDificuldades.setOnClickListener{
+            findNavController().navigate(R.id.action_ThirdFragment_to_FourFragment)
         }
     }
 
