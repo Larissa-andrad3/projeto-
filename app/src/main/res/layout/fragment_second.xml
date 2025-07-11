@@ -134,7 +134,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:backgroundTint="@color/black"
             android:layout_marginTop="5dp"
-            android:text="Login"/>
+            android:text="Login"
+            android:textColor="@color/white"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

@@ -37,7 +37,7 @@ class FourFragment : Fragment() {
             findNavController().navigate(R.id.action_FourFragment_to_ThirdFragment)
         }
         binding.seguinteC.setOnClickListener {
-            findNavController().navigate(R.id.action_FourFragment_to_ThirdFragment)
+            findNavController().navigate(R.id.action_FourFragment_to_FiveFragment)
         }
     }
 

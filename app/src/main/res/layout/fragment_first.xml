@@ -105,7 +105,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:backgroundTint="@color/black"
             android:layout_marginTop="10dp"
-            android:text="Cadastre-se"/>
+            android:text="Cadastre-se"
+            android:textColor="@color/white"/>
 
 
 
