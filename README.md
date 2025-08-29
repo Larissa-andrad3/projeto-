@@ -15,7 +15,7 @@
   want to improve their
   concentration in their
   studies.
-- 👨‍💼 Users interested in well-being, digital minimalism and productivity.
+- 👨‍💼 Users interested in well-being, digital minimalism and productivity..
 
 ## 📈 What the app offers to society
 
